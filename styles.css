@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+	max-width: 1000px;
+	/*width: 90%;*/
+}
+
+img {
+	max-width: 100%;
+}
+
+div.grid-container {
+	margin: auto;
+}
+
+div.header {
+	margin-bottom: 20px;
+}
+
+div.text-section {
+	border: 1px solid black;
+	margin-bottom: 30px;
+}
