@@ -7,7 +7,7 @@ html {
 body {
 	background-color: #e9ebee;
 	width: 100%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Calibri, 'Open Sans', sans-serif;
 	font-size: 1.6rem;
 }
 
@@ -18,18 +18,19 @@ h1 {
 .subtitle {
 	font-size: 2.3rem;
 	color: #C34037;
+	margin-bottom: 0;
 }
 
 @media (min-width: 576px) {
 	.subtitle {
-		font-size: 2.5rem;
+		font-size: 2.8rem;
 	}	
 }
 
 
 @media (min-width: 768px) {
 	.subtitle {
-		font-size: 3.2rem;
+		font-size: 4rem;
 	}	
 }
 
@@ -79,13 +80,20 @@ div.text-section {
 	box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
 }
 
-}
-
 div.text-section p {
 	text-align: justify;
 }
 
-.email-address {
+.mail-icon-link {
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+
+.mail-icon {
+	height: 40px;
+}
+
+/* .email-address {
 	padding: 1rem 0;
 	font-size: 2rem;
-}
+} */
